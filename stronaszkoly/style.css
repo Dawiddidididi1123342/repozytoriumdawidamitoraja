@@ -1,0 +1,225 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(218, 212, 212);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    
+    flex-direction: column;
+    height: 15vh;
+    width: 100vw;
+    background-color: rgb(53, 90, 139);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerDiv{
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerDiv img{
+    height: 10vh;
+}
+
+#mediaBox{
+    width: 20vw;
+    margin-right: 2vw ;
+}
+
+#menuButton{
+    background-color: gray;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 4vw;
+    height: 8vh;
+    cursor: pointer;
+}
+
+#stripeBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 4vw;
+    height: 6vh;
+}
+
+.stripe{
+    background-color: white;
+    display: flex;
+    width: 3vw;
+    height: 1vh;
+}
+
+#infoMenu a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+
+#infoMenu {
+    background-color: white;
+    height: 5vh;
+}
+
+#infoMenu div{
+    display: flex;
+    height: 5vh;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#infoMenu div:hover{
+    border-bottom: 3px solid rgb(255, 153, 0);
+}
+
+#strzalki {
+    width: 100vw;
+    height: 30vh;
+    margin-top: 1vh;
+}
+#strzalki #gornyRzad {
+    overflow: hidden;
+}
+  
+#strzalki #gornyRzad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gornyRzad img{
+    border-radius: 10px;
+}
+  
+#strzalki .slajd {
+    display: none;
+    width: 100%;
+}
+  
+#strzalki .slajd.active {
+    display: block;
+}
+  
+#strzalki #dolnyRzad {
+    display: flex;
+    justify-content: center;
+}
+#strzalkaP{
+    cursor: pointer;
+}
+#strzalkaL{
+    cursor: pointer;
+}
+
+.slajd img{
+    width: 87vw;
+    height: 55vh;
+    box-shadow: 5px 5px 10px gray;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+#squareBox{
+    margin-top: 2vh;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+#squareBox .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#squareBox .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 8vh;
+    width: 70vw;
+}
+
+#squareBox .row div{
+    background-color: rgb(56, 54, 54);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#squareBox .row div:hover{
+    background-color: rgb(75, 73, 73);
+}
+
+
+footer{
+    background-color: rgb(34, 58, 90);
+    height: 40vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .row{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .col div{
+    width: 30vw;
+    height: 30vh;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
